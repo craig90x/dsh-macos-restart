@@ -1,0 +1,8 @@
+# dsh-macos-restart bundle patch: one host row.
+# The row name resolves from the profile's own node_modules where the
+# package was installed (local directory install is fine).
+- insert:
+    - id: macos-restart
+      name: dsh-macos-restart
+      config:
+        appPath: /Applications/DeepSeek Harness.app
